@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio Website">
+    <meta name="keywords" content="portfolio, web developer, projects">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h1>About Me</h1>
+        <p>As a recent graduation ongoing with a bachelors degree in Computer Science (Data science). I am passionate about data science and eager to contribute to innvovative projects . I have completed my mini project duration in two months . I am proficient in python and sql languages . I know some tools like tableau and power Bi basics.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects </h2>
+        <div class="project">
+            <h3>Whatsapp Chat Analysis Using Machine Learning</h3>
+            <p>This project focuses on leveraging machine learning techniques to analyze 
+                individual WhatsApp chats, aiming to uncover and understand various patterns within 
+                the conversations. By meticulously examining the chat data, the system identifies and 
+                highlights key aspects such as message frequency, commonly used words, and the 
+                overall sentiment of the messages, whether they are positive, negative, or neutral.</p>
+        </div>
+        <div class="project">
+            <h3>Water Pollution In Villages</h3>
+            <p>The main goal of a water pollution project is to identify and mitigate the sources and impacts of water pollution to ensure clean, safe, and sustainable water resources. This involves assessing water quality, identifying pollution sources, implementing pollution reduction strategies, raising public awareness, protecting aquatic ecosystems, promoting sustainable practices, and advocating for effective policies and regulations. By addressing these key areas, the project aims to safeguard water resources for drinking, agriculture, recreation, and ecosystem health.
+        </p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+
+    <script src="personal.js"></script>
+</body>
+</html>
